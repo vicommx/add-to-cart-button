@@ -1,5 +1,5 @@
 {
-  "vendor": "vtex",
+  "vendor": "vicomstudio",
   "name": "add-to-cart-button",
   "version": "0.28.0",
   "title": "Add to Cart Button",
@@ -11,6 +11,7 @@
     "docs": "0.x"
   },
   "dependencies": {
+    "vtex.add-to-cart-button": "0.x",
     "vtex.styleguide": "9.x",
     "vtex.css-handles": "0.x",
     "vtex.order-manager": "0.x",
@@ -25,5 +26,15 @@
     "smartcheckout"
   ],
   "policies": [],
+  "billingOptions": {
+    "type": "free",
+    "availableCountries": [
+      "*"
+    ],
+    "termsURL": "https://compliance.vtex.com/gdpr/policies/vtex-privacy-policy",
+    "support": {
+      "url": "https://vicom.mx/contacto"
+    }
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
